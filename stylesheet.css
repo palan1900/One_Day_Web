@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body,p,div 
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body
+{
+	font-family: "Lucida Grande";
+	background-image: url("front1.jpg");
+
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+
+	zoom:1;
+	padding: 15px 0;
+	background-size: 1550px 720px;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  height: 65px;
+  margin-top: 15px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 12px 25px;
+  color: black;
+  display: block;
+  float: left;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.fa-times {
+  position: absolute;
+
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  color: #8491a5;
+  background-color: #ccd9ea;
+  transition: 0.3s ease-in-out;
+}
+
+.section{
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  top: 75px;
+  overflow: hidden;
+  z-index: 10;
+  border: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+li
+{
+  cursor: pointer;
+
+  box-shadow: 0 7px transparent;
+	list-style: none;
+	margin-left: 50px;
+	float: left;
+	font-size: 25px;
+	padding: 20px 40px;
+	transition: 0.3s ease-in-out;
+}
+li:active
+{
+	position: relative;
+  top: 5px;
+  color: white;
+  box-shadow: none;
+
+}
+
+
+.section-left
+{
+	float: left;
+	font-size: 36px;
+	padding: 20px 40px;
+}
+
+.section-list ul li #st
+{
+	color: black;
+}
